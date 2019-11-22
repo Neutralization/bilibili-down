@@ -40,8 +40,7 @@ Choose one of three, and install tools mentioned in linux
 3. Select `Network`
 4. Press <kbd>F5</kbd> to reload the page
 5. Selct first line and copy your cookies value
-6. Save to `cookies` file as `DedeUserID=****; DedeUserID__ckMd5=****; SESSDATA=****; bili_jct=****`
-7. Place `cookies` file in the same folder where `bilidown.sh` is
+6. Edit `cookies` in file as `DedeUserID=****; DedeUserID__ckMd5=****; SESSDATA=****; bili_jct=****`
 
 ## Todo
 - [ ] Customize output folder and filename.
