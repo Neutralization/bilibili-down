@@ -8,7 +8,7 @@ fi
 until [ $# -eq 0 ]
 do
     aid=`echo $1 | sed -e 's/.*av//g' -e 's/[a-zA-Z?/].*//g'`
-    cookies=`cat ./cookies`
+    cookies='DedeUserID=; DedeUserID__ckMd5=; SESSDATA=; bili_jct=`'
 
     pagelist='https://api.bilibili.com/x/player/pagelist?aid='$aid'&jsonp=jsonp'
     echo -e "->Getting video list: \n"$pagelist
